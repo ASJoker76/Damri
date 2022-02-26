@@ -3,31 +3,22 @@ package com.app.template.model.res;
 import java.util.List;
 
 public class ResAuth {
-    private String date;
-    private String message;
-    private List<ResDetailAuth> data;
+    private String status;
+    private int kode;
 
-    public String getDate() {
-        return date;
+    public String getStatus() {
+        return status;
     }
 
-    public void setDate(String date) {
-        this.date = date;
+    public void setStatus(String status) {
+        this.status = status;
     }
 
-    public String getMessage() {
-        return message;
+    public int getKode() {
+        return kode;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
-    public List<ResDetailAuth> getData() {
-        return data;
-    }
-
-    public void setData(List<ResDetailAuth> data) {
-        this.data = data;
+    public void setKode(int kode) {
+        this.kode = kode;
     }
 }

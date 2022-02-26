@@ -4,10 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ASUS/Documents/kantor/template/app/src/main/res/layout/activity_login.xml" value="0.21" />
+        <entry key="..\:/java/test-damri/app/src/main/res/layout/activity_home.xml" value="0.1213768115942029" />
+        <entry key="..\:/java/test-damri/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/java/test-damri/app/src/main/res/layout/activity_splash_screen.xml" value="0.1213768115942029" />
+        <entry key="..\:/java/test-damri/app/src/main/res/layout/dialog_insert_kontak.xml" value="0.16666666666666666" />
+        <entry key="..\:/java/test-damri/app/src/main/res/layout/fragment_home.xml" value="0.1213768115942029" />
+        <entry key="..\:/java/test-damri/app/src/main/res/layout/list_kontak.xml" value="0.1" />
+        <entry key="..\:/java/test-damri/app/src/main/res/layout/listkontak.xml" value="0.16666666666666666" />
+        <entry key="..\:/java/test-damri/app/src/main/res/menu/main_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

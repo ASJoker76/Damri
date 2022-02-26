@@ -1,4 +1,4 @@
-package com.app.template.view;
+package com.app.template.view.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -24,15 +24,9 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-//                SharedPreferences pref = getBaseContext().getSharedPreferences("intro", Context.MODE_PRIVATE);
-//                int skip_intro = pref.getInt("skip_intro", 0);
-//                if (skip_intro == 1){
-                    startActivity(new Intent(SplashScreenActivity.this, LoginActivity.class));
-                    finish();
-//                }else{
-//                    startActivity(new Intent(SplashScreenActivity.this, MainActivity.class));
-//                    finish();
-//                }
+                Intent intent=new Intent(SplashScreenActivity.this,LoginActivity.class);
+                startActivity(intent);
+                finish();
             }
         }, DELAYED);
 
